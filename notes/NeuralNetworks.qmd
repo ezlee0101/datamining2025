@@ -31,7 +31,7 @@ Finally, we can combine these values to make a prediction.
 
 <center><img src="images/neural_example.svg" class="responsive-img"></center>
 
-In this way, we can learn a non-linear functions by combining multiple linear models with non-linear activations.
+In this way, we can learn non-linear functions by combining multiple linear models with non-linear activations.
 By updating the weights of the linear models and the weights of the final combination, we can learn a complex function that fits the data well.
 
 Neural networks are remarkably flexible, with many different architectural options: 
