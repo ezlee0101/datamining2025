@@ -43,7 +43,7 @@ Note: We will only consider pages with outgoing links, i.e., $d_j > 0$ for all $
 
 Observe that the new importance is a linear combination of the previous importances.
 In the language of linear algebra, we are taking the dot product between the previous importance vector $\mathbf{p}^{(t)}$ and a vector that only depends on the structure of the graph.
-For page $i$, call this vector $[\mathbf{A}]_{i,} \in \mathbb{R}^n$ where
+For page $i$, call this vector $[\mathbf{A}]_{i,j} \in \mathbb{R}^n$ where
 $$
 [\mathbf{A}]_{i,j} = \begin{cases}
 \frac{1}{d_j} & \text{if } j \text{ links to } i \\
